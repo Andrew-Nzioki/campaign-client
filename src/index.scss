@@ -148,6 +148,7 @@
 
     .title {
       min-width: 250px;
+      width: 100%;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
@@ -160,6 +161,7 @@
     border-radius: 2px;
     min-height: 35px;
     min-width: 250px;
+    background-color: #fff;
   }
 
   .btn-wrapper {
