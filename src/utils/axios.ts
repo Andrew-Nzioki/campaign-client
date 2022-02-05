@@ -1,6 +1,10 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-const baseURL = "http://localhost:5000/api/v1";
+//DEVELOPMENT
+// const baseURL = "http://localhost:5000/api/v1";
+
+//PRODUCTION
+const baseURL ='https://campaign-server2022.herokuapp.com/api/v1'
 
 const axiosFetch = axios.create({ baseURL });
 
